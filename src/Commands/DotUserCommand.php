@@ -1,21 +1,21 @@
 <?php
 
-namespace Dot\Platform\Commands;
+namespace Benaaacademy\Platform\Commands;
 
-use Dot\Platform\Command;
-use Dot\Roles\Models\Role;
-use Dot\Users\Models\User;
+use Benaaacademy\Platform\Command;
+use Benaaacademy\Roles\Models\Role;
+use Benaaacademy\Users\Models\User;
 
 /*
- * Class DotUserCommand
+ * Class BenaaacademyUserCommand
  */
-class DotUserCommand extends Command
+class BenaaacademyUserCommand extends Command
 {
 
     /*
      * @var string
      */
-    protected $name = 'dot:user';
+    protected $name = 'Benaaacademy:user';
 
     /*
      * @var string

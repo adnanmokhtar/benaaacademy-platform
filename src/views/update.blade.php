@@ -15,7 +15,7 @@
 
         <ul class="todo-list m-t small-list">
             <li>
-                <span class="m-l-xs"><strong>$</strong> composer update dot/platform</span>
+                <span class="m-l-xs"><strong>$</strong> composer update Benaaacademy/platform</span>
             </li>
         </ul>
 
@@ -25,7 +25,7 @@
 
         <ul class="todo-list m-t small-list">
             <li>
-                <span class="m-l-xs"> <strong>$</strong> php artisan dot:install</span>
+                <span class="m-l-xs"> <strong>$</strong> php artisan Benaaacademy:install</span>
             </li>
         </ul>
     </div>

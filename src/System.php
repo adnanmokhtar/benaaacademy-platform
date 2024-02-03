@@ -1,9 +1,9 @@
 <?php
 
-namespace Dot\Platform;
+namespace Benaaacademy\Platform;
 
-use Dot\Options\Facades\Option;
-use Dot\Platform\Facades\Dot;
+use Benaaacademy\Options\Facades\Option;
+use Benaaacademy\Platform\Facades\Benaaacademy;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Request;
@@ -11,16 +11,16 @@ use Illuminate\Support\Facades\Request;
 /*
  * Class System
  * System Core class
- * @package Dot\Platform
+ * @package Benaaacademy\Platform
  */
 class System extends Plugin
 {
 
     protected $dependencies = [
-        "options" => \Dot\Options\Options::class,
-        "auth" => \Dot\Auth\Auth::class,
-        "media" => \Dot\Media\Media::class,
-        "dashboard" => \Dot\Dashboard\Dashboard::class,
+        "options" => \Benaaacademy\Options\Options::class,
+        "auth" => \Benaaacademy\Auth\Auth::class,
+        "media" => \Benaaacademy\Media\Media::class,
+        "dashboard" => \Benaaacademy\Dashboard\Dashboard::class,
     ];
 
     /*
@@ -35,14 +35,14 @@ class System extends Plugin
         'Str' => \Illuminate\Support\Str::class,
 
         /*
-         * Dot aliases
+         * Benaaacademy aliases
          */
-        'Dot' => \Dot\Platform\Facades\Dot::class,
-        'Plugin' => \Dot\Platform\Facades\Plugin::class,
-        'Navigation' => \Dot\Platform\Facades\Navigation::class,
-        'Action' => \Dot\Platform\Facades\Action::class,
-        'Widget' => \Dot\Platform\Facades\Widget::class,
-        'Schedule' => \Dot\Platform\Facades\Schedule::class,
+        'Benaaacademy' => \Benaaacademy\Platform\Facades\Benaaacademy::class,
+        'Plugin' => \Benaaacademy\Platform\Facades\Plugin::class,
+        'Navigation' => \Benaaacademy\Platform\Facades\Navigation::class,
+        'Action' => \Benaaacademy\Platform\Facades\Action::class,
+        'Widget' => \Benaaacademy\Platform\Facades\Widget::class,
+        'Schedule' => \Benaaacademy\Platform\Facades\Schedule::class,
     ];
 
     /*
@@ -51,19 +51,19 @@ class System extends Plugin
      */
     protected $commands = [
 
-        // Dot commands
-        \Dot\Platform\Commands\DotInstallCommand::class,
-        \Dot\Platform\Commands\DotUpdateCommand::class,
-        \Dot\Platform\Commands\DotMigrateCommand::class,
-        \Dot\Platform\Commands\DotUserCommand::class,
+        // Benaaacademy commands
+        \Benaaacademy\Platform\Commands\BenaaacademyInstallCommand::class,
+        \Benaaacademy\Platform\Commands\BenaaacademyUpdateCommand::class,
+        \Benaaacademy\Platform\Commands\BenaaacademyMigrateCommand::class,
+        \Benaaacademy\Platform\Commands\BenaaacademyUserCommand::class,
 
         // Plugins commands
-        \Dot\Platform\Commands\PluginListCommand::class,
-        \Dot\Platform\Commands\PluginMigrationCommand::class,
-        \Dot\Platform\Commands\PluginMigrateCommand::class,
-        \Dot\Platform\Commands\PluginInstallCommand::class,
-        \Dot\Platform\Commands\PluginUninstallCommand::class,
-        \Dot\Platform\Commands\PluginPublishCommand::class
+        \Benaaacademy\Platform\Commands\PluginListCommand::class,
+        \Benaaacademy\Platform\Commands\PluginMigrationCommand::class,
+        \Benaaacademy\Platform\Commands\PluginMigrateCommand::class,
+        \Benaaacademy\Platform\Commands\PluginInstallCommand::class,
+        \Benaaacademy\Platform\Commands\PluginUninstallCommand::class,
+        \Benaaacademy\Platform\Commands\PluginPublishCommand::class
 
     ];
 
@@ -72,7 +72,7 @@ class System extends Plugin
      * @var array
      */
     protected $middlewares = [
-        \Dot\Platform\Middlewares\PlatformMiddleware::class
+        \Benaaacademy\Platform\Middlewares\PlatformMiddleware::class
     ];
 
     /*
@@ -81,7 +81,7 @@ class System extends Plugin
      */
     public function boot()
     {
-        define("DOT_VERSION", Dot::version());
+        define("Benaaacademy_VERSION", Benaaacademy::version());
         define("ADMIN", config("admin.prefix"));
         define("API", config("admin.api"));
 
@@ -154,7 +154,7 @@ class System extends Plugin
 
         Option::set("site_name", "Site Name", 1);
         Option::set("site_slogan", "Site Slogan", 1);
-        Option::set("site_email", "dot@platform.com", 0);
+        Option::set("site_email", "Benaaacademy@platform.com", 0);
         Option::set("site_copyrights", "All rights reserved", 1);
         Option::set("site_timezone", "Etc/GMT", 0);
         Option::set("site_date_format", "relative", 0);

@@ -16,7 +16,7 @@ return [
     "minute" => "minute",
     "second" => "second",
 
-    "Dotemirates" => "Dot emirates",
+    "Benaaacademyemirates" => "Benaaacademy emirates",
     "Arabic" => "ِالعربية",
     "English" => "الإنجليزية",
     "Urdu" => "الأردية",

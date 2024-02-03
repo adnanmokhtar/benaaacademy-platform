@@ -1,21 +1,21 @@
 <?php
 
-namespace Dot\Platform\Commands;
+namespace Benaaacademy\Platform\Commands;
 
-use Dot\Platform\Command;
-use Dot\Platform\Facades\Plugin;
+use Benaaacademy\Platform\Command;
+use Benaaacademy\Platform\Facades\Plugin;
 use Illuminate\Container\Container;
 
 /*
  * Class MigrateCommand
  */
-class DotMigrateCommand extends Command
+class BenaaacademyMigrateCommand extends Command
 {
 
     /*
      * @var string
      */
-    protected $name = 'dot:migrate';
+    protected $name = 'Benaaacademy:migrate';
 
     /*
      * @var string

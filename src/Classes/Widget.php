@@ -1,13 +1,13 @@
 <?php
 
-namespace Dot\Platform\Classes;
+namespace Benaaacademy\Platform\Classes;
 
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Event;
 
 /*
- * Class DotWidget
- * @package Dot\Platform
+ * Class BenaaacademyWidget
+ * @package Benaaacademy\Platform
  */
 class Widget
 {

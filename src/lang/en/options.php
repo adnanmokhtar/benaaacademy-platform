@@ -4,12 +4,12 @@ return [
 
     "general_options" => "General Options",
 
-    "dot_version" => "Dot platform version",
+    "Benaaacademy_version" => "Benaaacademy platform version",
     "check_for_update" => "Check for updates",
     "checking" => "Checking..",
     "how_update" => "How to update",
-    "version_available" => "Dot Platform <strong style='font-family: sans-serif, Arial, Verdana'>:version</strong> is available!",
-    "up_to_date" => "Dot platform is up to date.",
+    "version_available" => "Benaaacademy Platform <strong style='font-family: sans-serif, Arial, Verdana'>:version</strong> is available!",
+    "up_to_date" => "Benaaacademy platform is up to date.",
 
     'attributes' => [
         'site_name' => 'Site name',

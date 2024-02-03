@@ -3,7 +3,7 @@
 Route::group([
     "prefix" => ADMIN,
     "middleware" => ["web", "auth:backend"],
-    "namespace" => "Dot\\Platform\\Controllers"
+    "namespace" => "Benaaacademy\\Platform\\Controllers"
 ], function ($route) {
     $route->any('/', ["as" => "admin", "uses" => function () {
         $redirect_path = config("admin.default_path");
@@ -27,7 +27,7 @@ Route::group([
 Route::group([
     "prefix" => ADMIN,
     "middleware" => ["web", "auth:backend"],
-    "namespace" => "Dot\\Platform\\Controllers"
+    "namespace" => "Benaaacademy\\Platform\\Controllers"
 ], function ($route) {
     $route->any('/platform/update', ["as" => "admin.options.check_update", "uses" => "OptionsController@check_update"]);
 });

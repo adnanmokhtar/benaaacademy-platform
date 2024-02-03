@@ -1,12 +1,12 @@
 <?php
 
-namespace Dot\Platform\Classes;
+namespace Benaaacademy\Platform\Classes;
 
 use Illuminate\Console\Scheduling\Schedule as Schedular;
 
 /*
- * Class DotSchedule
- * @package Dot\Platform
+ * Class BenaaacademySchedule
+ * @package Benaaacademy\Platform
  */
 class Schedule
 {

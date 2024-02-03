@@ -1,6 +1,6 @@
 <?php
 
-namespace Dot\Platform\Classes;
+namespace Benaaacademy\Platform\Classes;
 
 class Loader
 {

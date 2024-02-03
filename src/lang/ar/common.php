@@ -21,7 +21,7 @@ return [
     "Life" => "لايف",
     "Multimedia" => "مالتى ميديا",
     "Gate" => "بوابة التحرير",
-    "Dotemirates" => "دوت إمارات",
+    "Benaaacademyemirates" => "دوت إمارات",
     "Arabic" => "العربية",
     "English" => "الإنجليزية",
     "Urdu" => "الأردية",

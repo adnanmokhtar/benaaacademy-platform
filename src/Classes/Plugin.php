@@ -1,12 +1,12 @@
 <?php
 
-namespace Dot\Platform\Classes;
+namespace Benaaacademy\Platform\Classes;
 
 use ReflectionClass;
 
 /*
  * Class Plugin
- * @package Dot\Platform\Classes
+ * @package Benaaacademy\Platform\Classes
  */
 
 class Plugin

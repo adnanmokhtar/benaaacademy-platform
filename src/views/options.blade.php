@@ -126,7 +126,7 @@
             <div class="row">
 
                 <div class="col-xs-8 text-left">
-                    <span> {{ trans("admin::options.dot_version") }}: </span>
+                    <span> {{ trans("admin::options.Benaaacademy_version") }}: </span>
                     <h2 class="font-bold" style="font-family: sans-serif,Verdana, Arial">
                         {{ Plugin::get("admin")->getVersion() }}
                     </h2>

@@ -1,12 +1,12 @@
 <?php
 
-namespace Dot\Platform;
+namespace Benaaacademy\Platform;
 
 use Illuminate\Console\Command as LCommand;
 
 /*
  * Class Command
- * @package Dot\Platform
+ * @package Benaaacademy\Platform
  */
 class Command extends LCommand
 {

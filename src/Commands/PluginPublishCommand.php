@@ -1,9 +1,9 @@
 <?php
 
-namespace Dot\Platform\Commands;
+namespace Benaaacademy\Platform\Commands;
 
-use Dot\Platform\Command;
-use Dot\Platform\Facades\Plugin;
+use Benaaacademy\Platform\Command;
+use Benaaacademy\Platform\Facades\Plugin;
 use Illuminate\Support\Facades\Artisan;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;

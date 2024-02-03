@@ -1,6 +1,6 @@
 <?php
 
-namespace Dot\Platform\Middlewares;
+namespace Benaaacademy\Platform\Middlewares;
 
 use Closure;
 

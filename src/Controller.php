@@ -1,12 +1,12 @@
 <?php
 
-namespace Dot\Platform;
+namespace Benaaacademy\Platform;
 
 use Illuminate\Routing\Controller as LaravelController;
 
 /*
  * Class Controller
- * @package Dot\Platform
+ * @package Benaaacademy\Platform
  */
 class Controller extends LaravelController
 {

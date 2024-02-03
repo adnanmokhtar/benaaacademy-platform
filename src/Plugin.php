@@ -1,8 +1,8 @@
 <?php
 
-namespace Dot\Platform;
+namespace Benaaacademy\Platform;
 
-use Dot\Platform\Facades\Plugin as PluginFacade;
+use Benaaacademy\Platform\Facades\Plugin as PluginFacade;
 use Illuminate\Contracts\Auth\Access\Gate as GateContract;
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Routing\Router;
@@ -10,7 +10,7 @@ use Illuminate\Support\ServiceProvider;
 
 /*
  * Plugin Super class
- * @package Dot\Platform
+ * @package Benaaacademy\Platform
  */
 
 class Plugin extends ServiceProvider

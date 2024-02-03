@@ -28,12 +28,12 @@ return [
     'api' => env("API_PREFIX", "api"),
 
     /*
-     * Dot plugins
+     * Benaaacademy plugins
      *
      * @var array
      */
 
     'plugins' => [
-        "admin" => Dot\Platform\System::class,
+        "admin" => Benaaacademy\Platform\System::class,
     ]
 ];

@@ -4,7 +4,7 @@ return [
 
     "general_options" => "الإعدادات العامة",
 
-    "dot_version" => "إصدار النظام",
+    "Benaaacademy_version" => "إصدار النظام",
     "check_for_update" => "التحقق من وجود تحديثات",
     "checking" => "جاري الفحص ..",
     "how_update" => "كيفية التحديث",

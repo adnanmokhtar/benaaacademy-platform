@@ -1,17 +1,17 @@
 <?php
 
-namespace Dot\Platform\Classes;
+namespace Benaaacademy\Platform\Classes;
 
 /*
- * Class Dot
- * Dot super class
- * @package Dot\Platform
+ * Class Benaaacademy
+ * Benaaacademy super class
+ * @package Benaaacademy\Platform
  */
-class Dot
+class Benaaacademy
 {
 
     /*
-     *  Dot platform version
+     *  Benaaacademy platform version
      */
     const VERSION = '0.3.4';
 
@@ -37,7 +37,7 @@ class Dot
     public $instances = [];
 
     /*
-     * DotPlatform constructor.
+     * BenaaacademyPlatform constructor.
      */
     function __construct()
     {
@@ -47,7 +47,7 @@ class Dot
     /*
      * Class Factory
      */
-    function loadDotBindings()
+    function loadBenaaacademyBindings()
     {
         foreach ($this->instances as $name => $instance) {
             $this->app->bind($name, function () use ($instance) {

@@ -1,14 +1,14 @@
 <?php
 
-namespace Dot\Platform\Classes;
+namespace Benaaacademy\Platform\Classes;
 
 use Illuminate\Events\Dispatcher;
 use Illuminate\View\View;
 
 
 /*
- * Class DotAction
- * @package Dot\Platform
+ * Class BenaaacademyAction
+ * @package Benaaacademy\Platform
  */
 class Action extends Dispatcher
 {

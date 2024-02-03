@@ -1,11 +1,11 @@
 <?php
 
-namespace Dot\Platform\Facades;
+namespace Benaaacademy\Platform\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 
-class Dot extends Facade
+class Benaaacademy extends Facade
 {
 
     /*
@@ -15,7 +15,7 @@ class Dot extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'dot';
+        return 'Benaaacademy';
     }
 
 }

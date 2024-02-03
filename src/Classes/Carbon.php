@@ -1,10 +1,10 @@
 <?php
 
-namespace Dot\Platform\Classes;
+namespace Benaaacademy\Platform\Classes;
 
 /*
  * Class Carbon
- * @package Dot\Platform\Classes
+ * @package Benaaacademy\Platform\Classes
  */
 class Carbon extends \Carbon\Carbon
 {

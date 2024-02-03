@@ -1,8 +1,8 @@
 <?php
 
-namespace Dot\Platform;
+namespace Benaaacademy\Platform;
 
-use DotResponse;
+use BenaaacademyResponse;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller as LaravelController;
 use Illuminate\Support\Facades\Auth;
@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Route;
 
 /*
  * Class ApiController
- * @package Dot\Platform
+ * @package Benaaacademy\Platform
  */
 class ApiController extends LaravelController
 {
@@ -21,7 +21,7 @@ class ApiController extends LaravelController
     public $request;
 
     /*
-     * @var \DotResponse
+     * @var \BenaaacademyResponse
      */
     public $response;
 
@@ -38,7 +38,7 @@ class ApiController extends LaravelController
     {
 
         $this->request = $request;
-        $this->response = new DotResponse();
+        $this->response = new BenaaacademyResponse();
 
         if (Auth::guard("api")->check()) {
             $this->user = Auth::guard(GUARD)->user();

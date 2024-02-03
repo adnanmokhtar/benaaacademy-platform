@@ -20,12 +20,12 @@
         "barryvdh/laravel-debugbar": "^3.9",
         "doctrine/dbal": "^3.8",
         "laravel/helpers": "^1.7",
-        "dot/auth": "*",
-        "dot/roles": "*",
-        "dot/users": "*",
-        "dot/options": "*",
-        "dot/media": "*",
-        "dot/dashboard": "*"
+        "benaaacademy/auth": "*",
+        "benaaacademy/roles": "*",
+        "benaaacademy/users": "*",
+        "benaaacademy/options": "*",
+        "benaaacademy/media": "*",
+        "benaaacademy/dashboard": "*"
     },
     "autoload": {
         "psr-4": {

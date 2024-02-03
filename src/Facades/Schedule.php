@@ -1,6 +1,6 @@
 <?php
 
-namespace Dot\Platform\Facades;
+namespace Benaaacademy\Platform\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

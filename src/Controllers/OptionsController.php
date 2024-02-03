@@ -1,15 +1,15 @@
 <?php
 
-namespace Dot\Platform\Controllers;
+namespace Benaaacademy\Platform\Controllers;
 
-use Dot\Options\Facades\Option;
-use Dot\Platform\Controller;
-use Dot\Platform\Facades\Plugin;
+use Benaaacademy\Options\Facades\Option;
+use Benaaacademy\Platform\Controller;
+use Benaaacademy\Platform\Facades\Plugin;
 use stdClass;
 
 /*
  * Class OptionsController
- * @package Dot\Platform\Controllers
+ * @package Benaaacademy\Platform\Controllers
  */
 class OptionsController extends Controller
 {
@@ -52,7 +52,7 @@ class OptionsController extends Controller
 
         $objCurl = curl_init();
 
-        curl_setopt($objCurl, CURLOPT_URL, "https://api.bitbucket.org/2.0/repositories/basemkhirat/dot-platform/refs/tags");
+        curl_setopt($objCurl, CURLOPT_URL, "https://api.bitbucket.org/2.0/repositories/basemkhirat/Benaaacademy-platform/refs/tags");
         curl_setopt($objCurl, CURLOPT_SSL_VERIFYPEER, false);
         curl_setopt($objCurl, CURLOPT_RETURNTRANSFER, true);
 

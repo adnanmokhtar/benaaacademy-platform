@@ -1,13 +1,13 @@
 <?php
 
-namespace Dot\Platform;
+namespace Benaaacademy\Platform;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\ServiceProvider as LaravelServiceProvider;
 
 /*
  * Class ServiceProvider
- * @package Dot\Platform
+ * @package Benaaacademy\Platform
  */
 class ServiceProvider extends LaravelServiceProvider
 {
@@ -24,12 +24,12 @@ class ServiceProvider extends LaravelServiceProvider
      * @var array
      */
     protected $helpers = [
-        "dot" => \Dot\Platform\Classes\Dot::class,
-        "plugin" => \Dot\Platform\Classes\Plugin::class,
-        "widget" => \Dot\Platform\Classes\Widget::class,
-        "action" => \Dot\Platform\Classes\Action::class,
-        "navigation" => \Dot\Platform\Classes\Navigation::class,
-        "schedule" => \Dot\Platform\Classes\Schedule::class
+        "Benaaacademy" => \Benaaacademy\Platform\Classes\Benaaacademy::class,
+        "plugin" => \Benaaacademy\Platform\Classes\Plugin::class,
+        "widget" => \Benaaacademy\Platform\Classes\Widget::class,
+        "action" => \Benaaacademy\Platform\Classes\Action::class,
+        "navigation" => \Benaaacademy\Platform\Classes\Navigation::class,
+        "schedule" => \Benaaacademy\Platform\Classes\Schedule::class
     ];
 
     /*

@@ -1,8 +1,8 @@
 <?php
 
-namespace Dot\Platform\Controllers;
+namespace Benaaacademy\Platform\Controllers;
 
-use Dot\Platform\Controller;
+use Benaaacademy\Platform\Controller;
 use Illuminate\Support\Facades\Request;
 
 /*

@@ -1,8 +1,8 @@
 <?php
 
-namespace Dot\Platform;
+namespace Benaaacademy\Platform;
 
-use Dot\Platform\Classes\Carbon;
+use Benaaacademy\Platform\Classes\Carbon;
 use Illuminate\Database\Eloquent\Model as BaseModel;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Event;
@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Validator;
 
 /*
  * Trait ModelTraits
- * @package Dot\Platform
+ * @package Benaaacademy\Platform
  */
 trait ModelTraits
 {
@@ -439,7 +439,7 @@ trait ModelTraits
      * Return a timestamp as DateTime object.
      *
      * @param  mixed $value
-     * @return \Dot\Carbon
+     * @return \Benaaacademy\Carbon
      */
     protected function asDateTime($value)
     {
@@ -559,7 +559,7 @@ class Translatable {
 
 /*
  * Class Model
- * @package Dot\Platform
+ * @package Benaaacademy\Platform
  */
 class Model extends BaseModel
 {

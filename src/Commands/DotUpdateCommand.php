@@ -1,18 +1,18 @@
 <?php
 
-namespace Dot\Platform\Commands;
+namespace Benaaacademy\Platform\Commands;
 
-use Dot\Platform\Command;
-use Dot\Platform\Facades\Plugin;
+use Benaaacademy\Platform\Command;
+use Benaaacademy\Platform\Facades\Plugin;
 use Symfony\Component\Console\Input\InputOption;
 
-class DotUpdateCommand extends Command
+class BenaaacademyUpdateCommand extends Command
 {
 
     /*
      * @var string
      */
-    protected $name = 'dot:update';
+    protected $name = 'Benaaacademy:update';
 
     /*
      * @var string
@@ -33,8 +33,8 @@ class DotUpdateCommand extends Command
             '--quiet' => true
         ]);
 
-        $this->info("Congratulations, Dot platform is now up to date!");
-        $this->info("Platform version: " . Dot::version());
+        $this->info("Congratulations, Benaaacademy platform is now up to date!");
+        $this->info("Platform version: " . Benaaacademy::version());
 
     }
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Dot\Platform\Classes;
+namespace Benaaacademy\Platform\Classes;
 
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Event;
@@ -9,7 +9,7 @@ use View;
 
 /*
  * Class Navigation
- * @package Dot\Platform\Classes
+ * @package Benaaacademy\Platform\Classes
  */
 class Navigation
 {
@@ -160,7 +160,7 @@ class Navigation
     /*
      * Add a menu item to the item stack
      *
-     * @param string $key Dot separated hierarchy
+     * @param string $key Benaaacademy separated hierarchy
      * @param string $name Text for the anchor
      * @param string $url URL for the anchor
      * @param integer $sort Sorting index for the items

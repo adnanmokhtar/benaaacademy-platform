@@ -1,25 +1,25 @@
 <?php
 
-namespace Dot\Platform\Commands;
+namespace Benaaacademy\Platform\Commands;
 
-use Dot\Platform\Command;
-use Dot\Platform\Facades\Plugin;
+use Benaaacademy\Platform\Command;
+use Benaaacademy\Platform\Facades\Plugin;
 use Illuminate\Database\QueryException;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\Facades\Schema;
 
 /*
- * Class DotInstallCommand
+ * Class BenaaacademyInstallCommand
  *
- * @package Dot\Platform\Commands
+ * @package Benaaacademy\Platform\Commands
  */
-class DotInstallCommand extends Command
+class BenaaacademyInstallCommand extends Command
 {
 
     /*
      * @var string
      */
-    protected $name = 'dot:install';
+    protected $name = 'Benaaacademy:install';
 
     /*
      * @var string
@@ -53,7 +53,7 @@ class DotInstallCommand extends Command
     {
 
         $this->line("\r");
-        $this->line('<fg=black;bg=green> Dot Platform Installation </>');
+        $this->line('<fg=black;bg=green> Benaaacademy Platform Installation </>');
         $this->line("\r");
 
         if(empty(config("app.key"))){
@@ -202,13 +202,13 @@ class DotInstallCommand extends Command
 
         if (!$this->isInstalled) {
 
-            $this->call("dot:user", [
+            $this->call("Benaaacademy:user", [
                 '--quiet' => true
             ]);
 
             $this->info("\r");
 
-            $this->info("Congratulations, Dot Platform " . Plugin::get("admin")->getVersion() . " is now installed!");
+            $this->info("Congratulations, Benaaacademy Platform " . Plugin::get("admin")->getVersion() . " is now installed!");
             $this->info("Navigate to /" . config("admin.prefix") . " to browse the backend.");
             $this->info("Enjoy :)");
 

@@ -1,16 +1,16 @@
 <?php
 
 /*
- * @return Dot instance
+ * @return Benaaacademy instance
  */
-function dot($make = NULL)
+function Benaaacademy($make = NULL)
 {
 
     if (is_null($make)) {
-        return Dot::getInstance();
+        return Benaaacademy::getInstance();
     }
 
-    return Dot::getInstance()->get($make);
+    return Benaaacademy::getInstance()->get($make);
 }
 
 /*
@@ -220,5 +220,5 @@ function get_relative_path($value = '')
 
 function plugin($name)
 {
-    return \Dot\Platform\Facades\Plugin::get($name);
+    return \Benaaacademy\Platform\Facades\Plugin::get($name);
 }

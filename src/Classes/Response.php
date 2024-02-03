@@ -1,9 +1,9 @@
 <?php
 
-namespace Dot\Platform\Classes;
+namespace Benaaacademy\Platform\Classes;
 
 /*
- * Class DotResponse
+ * Class BenaaacademyResponse
  * Create the API Response output
  */
 class Response
@@ -35,7 +35,7 @@ class Response
     private $response;
 
     /*
-     * DotResponse constructor.
+     * BenaaacademyResponse constructor.
      */
     function __construct()
     {
