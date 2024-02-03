@@ -165,7 +165,7 @@
 
             // dot
             if (ch == ".") {
-                return rval(state, stream, "dot");
+                return rval(state, stream, "benaaacademy");
             }
 
             // quoted atom
@@ -373,7 +373,7 @@
                     return null;
                 case "comment":
                     return "comment";
-                case "dot":
+                case "benaaacademy":
                     return null;
                 case "error":
                     return "error";
@@ -450,7 +450,7 @@
         function maybe_drop_pre(s, token) {
             var last = s.length - 1;
 
-            if (0 < last && s[last].type === "record" && token.type === "dot") {
+            if (0 < last && s[last].type === "record" && token.type === "benaaacademy") {
                 s.pop();
             } else if (0 < last && s[last].type === "group") {
                 s.pop();
@@ -464,7 +464,7 @@
         function maybe_drop_post(s) {
             var last = s.length - 1;
 
-            if (s[last].type === "dot") {
+            if (s[last].type === "benaaacademy") {
                 return [];
             }
             if (s[last].type === "fun" && s[last - 1].token === "fun") {
