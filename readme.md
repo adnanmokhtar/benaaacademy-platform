@@ -1,4 +1,4 @@
-# DotPlatform
+# BenaaacademyPlatform
 
 
 
@@ -9,9 +9,9 @@
 
 ### Minimum System Requirements:
 
-To be able to run Dotcms you have to meet the following requirements:
+To be able to run Benaaacademycms you have to meet the following requirements:
 
-- PHP 5.5.9 or higher and work perfectly with php7
+- PHP 8.1 or higher
 - PDO PHP Extension
 - Mcrypt PHP Extension
 - GD PHP Library
@@ -20,21 +20,21 @@ To be able to run Dotcms you have to meet the following requirements:
 
 
 
-### Installing DotCms:
+### Installing BenaaacademyCms:
 
 It's very easy, you can choose one of three installation methods:
 
-First, you must have a laravel 5 project you can install dot/platform package
+First, you must have a laravel 5 project you can install Benaaacademy/platform package
 
-	composer require dot/platform
+	composer require Benaaacademy/platform
 
 Then add service provider in app config
 
-	Dot\Platform\ServiceProvider::class
+	Benaaacademy\Platform\ServiceProvider::class
 
 Then Run this artisan command to install
 
-	php artisan dot:install
+	php artisan Benaaacademy:install
 
 
 Enjoy :)
