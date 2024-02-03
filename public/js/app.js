@@ -2968,7 +2968,7 @@ b.bind("mouseup.slimscroll",function(a){y=!1;p();b.unbind(".slimscroll")});retur
             event.unbind(el, type, fn, capture)
         }
     });
-    require.register("component~events@1.0.9", function (exports, module) {
+    require.register("component~events@1.0.10", function (exports, module) {
         var events = require("component~event@0.1.4");
         var delegate = require("component~delegate@0.2.3");
         module.exports = Events;
@@ -3036,7 +3036,7 @@ b.bind("mouseup.slimscroll",function(a){y=!1;p();b.unbind(".slimscroll")});retur
     });
     require.register("switchery", function (exports, module) {
         var transitionize = require("abpetkov~transitionize@0.0.3"), fastclick = require("ftlabs~fastclick@v0.6.11"),
-            classes = require("component~classes@1.2.1"), events = require("component~events@1.0.9");
+            classes = require("component~classes@1.2.1"), events = require("component~events@1.0.10");
         module.exports = Switchery;
         var defaults = {
             color: $("body").hasClass("dark-theme") ? "#1e8cbe" : "#1ab394",
