@@ -1,5 +1,5 @@
 {
-    "name": "dot/platform",
+    "name": "benaaacademy/platform",
     "description": "Just a laravel plugins platform",
     "keywords": [
         "framework",
@@ -19,7 +19,13 @@
         "laravel/framework": "*",
         "barryvdh/laravel-debugbar": "^3.9",
         "doctrine/dbal": "^3.8",
-        "laravel/helpers": "^1.7"
+        "laravel/helpers": "^1.7",
+        "dot/auth": "*",
+        "dot/roles": "*",
+        "dot/users": "*",
+        "dot/options": "*",
+        "dot/media": "*",
+        "dot/dashboard": "*"
     },
     "autoload": {
         "psr-4": {
