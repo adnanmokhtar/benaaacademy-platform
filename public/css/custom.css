@@ -1,0 +1,110 @@
+#page-wrapper {
+    box-shadow: 0 7px 18px #0b0b0b;
+}
+
+#side-menu li a {
+    font-size: 14px;
+}
+
+.navbar-fixed-top,
+.navbar-static-top {
+    background: #404040;
+    border: none;
+}
+
+.dark-theme .nav-header {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 18px;
+}
+
+.page-heading {
+    background: #2b2b2b;
+    border-bottom: 0;
+}
+
+.border-bottom {
+    border-bottom: 0 !important;
+}
+
+.page-heading i,
+h2 {
+    color: rgb(201, 201, 201);
+    font-weight: bold;
+}
+
+.page-heading .breadcrumb {
+    background: transparent;
+}
+
+.page-heading .btn-main {
+    box-shadow: 0 2px 3px rgb(27, 27, 27);
+}
+
+.alert {
+    font-weight: bold;
+}
+
+.ibox {
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 2px 3px #bdbdbd;
+}
+
+.ibox-title {
+    border-top: none;
+}
+
+.chosen-container,
+.form-control {
+    box-shadow: 0px 1px 1px #ccc;
+    border-radius: 3px;
+}
+.chosen-drop {
+    border-top: none !important;
+}
+
+.preview-image {
+    border-radius: 10px;
+    border: 3px solid #f5f5f5;
+}
+
+
+.post-media-preview, .post-image-preview {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.post-media, .post-image {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.add-post-image {
+    background: #2b2b2b;
+    color: white;
+    padding: 5px 16px;
+}
+
+.dashboard-header {
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0px 2px 3px #bdbdbd;
+}
+
+.remove-post-image, .remove-post-media{
+    background: black;
+    padding : 2px 5px;
+    color: white !important;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+
+.remove-post-image i, .remove-post-media i {
+    color: white !important;
+}
